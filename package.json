@@ -1,0 +1,22 @@
+{
+  "name": "orangepi-dht11",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "install": "node-gyp configure",
+    "postinstall": "node-gyp build"
+  },
+  "main": "index.js",
+  "files": [
+    "binding.gyp"
+  ],
+  "private": false,
+  "engines": {
+    "node": "16"
+  },
+  "author": "Boris Kotlyarov",
+  "repository": {
+    "url": "https://github.com/BorisKotlyarov/orangepi-dht11.git"
+  },
+  "keywords": ["orange pi", "DHT11", "sensors" ]
+}
